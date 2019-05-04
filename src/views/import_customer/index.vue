@@ -9,7 +9,7 @@
         <el-row :gutter="24" class="row-space">
           <el-col :span="8">
             <div class="grid-content bg-purple">
-              <div class="import__product">
+              <div class="import__product import__transform">
                 <div>
                   <img
                     class="import__img"
@@ -30,7 +30,7 @@
           </el-col>
           <el-col :span="8">
             <div class="grid-content bg-purple">
-              <div class="import__product">
+              <div class="import__product import__transform">
                 <div class="import__product">
                   <div>
                     <img
@@ -53,7 +53,7 @@
           </el-col>
           <el-col :span="8">
             <div class="grid-content bg-purple">
-              <div class="import__product">
+              <div class="import__product import__transform">
                 <div class="import__product">
                   <div>
                     <img
@@ -78,7 +78,7 @@
         <el-row :gutter="24">
           <el-col :span="8">
             <div class="grid-content bg-purple">
-              <div class="import__product">
+              <div class="import__product import__transform">
                 <div>
                   <img
                     class="import__img"
@@ -99,7 +99,7 @@
           </el-col>
           <el-col :span="8">
             <div class="grid-content bg-purple">
-              <div class="import__product">
+              <div class="import__product import__transform">
                 <div class="import__product">
                   <div>
                     <img
@@ -156,6 +156,13 @@ export default {
       display inline-block
       font-size 8px
       color color-hover
+  &__transform
+    box-shadow:2px 2px 5px #999
+  &__transform:hover
+      transform translateY(-5%)
+      -ms-transform translateY(-5%)
+      -webkit-transform translateY(-5%)
+      box-shadow:2px 2px 5px 1px color-hover
   &__img
     width 210px
     height 155px

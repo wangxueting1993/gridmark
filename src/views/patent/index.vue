@@ -1,9 +1,140 @@
 <template>
   <div>
-    <home-banner/>
-    <div class="white_bg contact_us">
-      <div class="gridmark_main clearfix">
-        666
+    <home-banner />
+    <div class="gridmark_main patent">
+      <div class="patent__title">发/明/专/利</div>
+      <div class="patent__cont">
+        做为一家拥有自主知识产权的高科技公司，“创新致远 勇往直前”是格睿码克永恒不变的信念。格睿码克现已获得国际专利363件，其中11项为自主知识产权发明专利，涵盖到智能点阵系统基本原理、点码阵列、实现方案、软件识别及编解码算法、硬件实现等方面。
+      </div>
+      <div class="patent__carousel">
+        <el-carousel indicator-position="outside">
+          <el-carousel-item>
+            <el-row>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/1.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple-light">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/2.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/3.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+            </el-row>
+          </el-carousel-item>
+          <el-carousel-item>
+            <el-row>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/4.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple-light">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/5.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/6.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+            </el-row>
+          </el-carousel-item>
+          <el-carousel-item>
+            <el-row>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/7.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple-light">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/8.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/9.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+            </el-row>
+          </el-carousel-item>
+          <el-carousel-item>
+            <el-row>
+              <el-col :span="8">
+                <div class="grid-content bg-purple">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/10.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+              <el-col :span="8">
+                <div class="grid-content bg-purple-light">
+                  <img
+                    class="patent__img"
+                    src="../../assets/images/patent/11.png"
+                    alt=""
+                  >
+                </div>
+              </el-col>
+            </el-row>
+          </el-carousel-item>
+        </el-carousel>
+      </div>
+    </div>
+    <div class="map">
+      <div class="gridmark_main">
+        <div class="patent__title">发/明/专/利</div>
+        <div class="patent__cont">
+          做为一家拥有自主知识产权的高科技公司，“创新致远 勇往直前”是格睿码克永恒不变的信念。格睿码克现已获得国际专利363件，其中11项为自主知识产权发明专利，涵盖到智能点阵系统基本原理、点码阵列、实现方案、软件识别及编解码算法、硬件实现等方面。
+        </div>
+        <div class="map__img">
+          等UI图
+        </div>
       </div>
     </div>
   </div>
@@ -18,11 +149,50 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
-.contact_us
-  height 350px
 .gridmark_banner
-  background url("../../assets/images/patent/banner.png") no-repeat center center
+  background url('../../assets/images/patent/banner.png') no-repeat center center
   background-color #F4F4FF
   background-size cover
-
+.map
+  height 500px
+  background color-bg-default
+  &__img
+    width 707px
+    height 210px
+    background pink
+    margin-top 40px
+    margin-left 32px
+  &__title
+    font-size 15px
+    color color-hover
+    height 45px
+    line-height 45px
+  &__cont
+    width 554px
+    font-size 13px
+    color color-hover
+    margin-left 125px
+    line-height 22px
+    font-family PingFangSC-Regular
+.patent
+  padding-top 0
+  height 460px
+  &__title
+    font-size 15px
+    color color-hover
+    height 45px
+    line-height 45px
+  &__carousel
+    margin-top 20px
+    height 240px
+  &__img
+    width 191px
+    height 279px
+  &__cont
+    width 554px
+    font-size 13px
+    color color-hover
+    margin-left 125px
+    line-height 22px
+    font-family PingFangSC-Regular
 </style>
