@@ -57,29 +57,30 @@ export default {
   background-size cover
 .cont
   &__img
-    width 290px
-    height 220px
-    border-radius 3px
+    width 500px
+    height 405px
+    border-radius 6px
   &__imgl
     margin-right 90px
   &__imgr
     margin-right 40px
   &__main
-    width 390px
+    width 485px
     height 220px
-    font-size 11px
-    line-height 15px
+    font-size 18px
+    line-height 24px
     color color-hover
+    margin-top 100px
     text-align left
   &__title
+    fong-size 18px
+    font-weight 600
     margin-top 60px
   &__info
     margin-top 5px
-    line-height 18px
+    line-height 24px
     letter-spacing 1px
-    font-size 10px
-    transform:scale(0.9, 0.9)
-    transform-origin left
+    font-size 16px
   &__main--info
     display inline-block
   &__yellow

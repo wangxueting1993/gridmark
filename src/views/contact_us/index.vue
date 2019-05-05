@@ -24,7 +24,7 @@
             http://www.gridmark.cn
           </div>
         </div>
-        <div class="cont__imgl l">
+        <div class="cont__imgl r">
           <img class="cont__img" src="../../assets/images/home/lianxiwomen.png" alt="">
         </div>
       </div>
@@ -42,32 +42,28 @@ export default {
 </script>
 <style lang="stylus" scoped>
 .contact_us
-  height 350px
+  height 550px
 .gridmark_banner
   background url("../../assets/images/contact_us/banner.png") no-repeat center center
   background-color #F4F4FF
   background-size cover
 .cont
   &__img
-    width 290px
-    height 220px
-    border-radius 3px
-  &__imgl
-    margin-right 90px
-  &__imgr
-    margin-right 40px
+    width 527px
+    height 451px
+    border-radius 6px
   &__main
-    width 390px
+    width 541px
     height 220px
-    font-size 11px
-    line-height 15px
+    font-size 22px
+    line-height 30px
     color color-hover
     text-align left
   &__info
-    margin-top 5px
-    line-height 18px
+    margin-top 10px
+    line-height 30px
     letter-spacing 1px
-    font-size 10px
+    font-size 20px
     transform:scale(0.9, 0.9)
     transform-origin left
   &__main--info

@@ -141,20 +141,21 @@ export default {
   background-size cover
 .import
   padding-top 0
-  line-height 45px
+  // line-height 90px
   color color-hover
-  font-size 10px
-  height 550px
+  font-size 20px
+  height 800px
   &__title
-    height 45px
+    line-height 90px
+    height 90px
   &__product
-    border-radius 3px
-    width 220px
-    height 200px
+    border-radius 6px
+    width 350px
+    height 310px
     background color-bg-gray
     span
       display inline-block
-      font-size 8px
+      font-size 16px
       color color-hover
   &__transform
     box-shadow:2px 2px 5px #999
@@ -164,16 +165,15 @@ export default {
       -webkit-transform translateY(-5%)
       box-shadow:2px 2px 5px 1px color-hover
   &__img
-    width 210px
-    height 155px
-    margin-top 5px
+    width 330px
+    height 245px
+    margin-top 10px
   &__main
     display block
     height 450px
   &__tip
     // margin-right 25px
-    transform scale(0.9, 0.9)
-    transform-origin left
+    line-height 45px !important
 .row-space
   margin-bottom 40px
 </style>

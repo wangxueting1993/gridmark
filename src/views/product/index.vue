@@ -319,27 +319,27 @@ export default {
   background-size cover
 .use_place
   background color-bg-default
-  height 550px
+  height 800px
 .product_place
   padding-top 0
 .product
   padding-top 0
-  line-height 45px
+  line-height 60px
   color color-hover
-  font-size 10px
   height 550px
   &__title
-    height 45px
-    line-height 45px
+    font-size 20px
+    height 90px
+    line-height 90px
   &__pro
   &__product
-    border-radius 3px
-    width 220px
-    height 200px
+    border-radius 6px
+    width 350px
+    height 310px
     background color-whitebg
     span
       display inline-block
-      font-size 8px
+      font-size 16px
       color color-hover
   &__transform
     transition: box-shadow 0.5s;
@@ -348,39 +348,35 @@ export default {
   &__transform:hover
       box-shadow:2px 2px 15px 1px color-hover
   &__img
-    width 210px
-    height 155px
-    margin-top 5px
+    width 330px
+    height 240px
+    margin-top 10px
   &__main
     display block
     height 450px
   &__tip
     // margin-right 25px
-    transform scale(0.9, 0.9)
-    transform-origin left
 .product-up
   padding-top 0
   // line-height 45px
   color color-hover
-  font-size 10px
-  height 550px
+  height 900px
   &__title
-    height 45px
-    line-height 45px
+    font-size 20px
+    height 90px
+    line-height 90px
   &__box
     overflow hidden
     padding-left 5px
   &__product
-    border-radius 3px
-    width 150px
-    height 200px
+    border-radius 6px
+    width 250px
+    height 350px
     overflow hidden
     background color-bg-gray
-    transition: box-shadow 0.5s;
-    -webkit-transition: box-shadow 0.5s;
     span
       display inline-block
-      font-size 8px
+      font-size 14px
       color color-hover
   &__transform
     box-shadow:2px 2px 5px #999
@@ -388,19 +384,17 @@ export default {
       transform translateY(-5%)
       -ms-transform translateY(-5%)
       -webkit-transform translateY(-5%)
-      // box-shadow:2px 2px 5px 1px color-hover
   &__img
-    width 140px
-    height 125px
-    margin-top 5px
+    width 230px
+    height 192px
+    margin-top 10px
   &__main
     display block
     height 450px
   &__tip
-    width 200px
-    line-height 16px
-    transform scale(0.7, 0.7)
-    transform-origin left
+    width 230px
+    line-height 24px
+    text-align left
 .row-space
   margin-bottom 40px
 </style>

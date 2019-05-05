@@ -162,34 +162,34 @@ export default {
   background color-bg-default
   background url('../../assets/images/company_info/bg.png') no-repeat center center
   background-size cover
-  height 682px
+  height 1367px
   &__box
     padding-top 0
   &__title
-    font-size 15px
+    font-size 30px
     color color-hover
-    height 45px
-    line-height 45px
+    height 90px
+    line-height 90px
   &__eg
-    height 270px
+    height 540px
     margin-bottom 60px
     &__img
-      width 270px
-      height 250px
+      width 540px
+      height 500px
       margin-right 158px
     &__cont
-      width 295px
+      width 500px
       height 212px
       margin-top 10px
       color color-hover
-      font-size 13px
-      line-height 22px
+      font-size 24px
+      line-height 46px
       text-align left 
 .map
-  height 500px
+  height 850px
   // background color-bg-default
   &__img
-    width 707px
+    width 1200px
     height 210px
     margin-top 40px
     // margin-left 32px
@@ -200,51 +200,51 @@ export default {
     line-height 45px
 .info
   padding-top 0
-  height 345px
+  height 576px
   &__title
-    font-size 15px
+    font-size 30px
     color color-hover
-    height 45px
-    line-height 45px
+    height 90px
+    line-height 90px
   &__eg
     &__img
-      width 343px
-      height 257px
+      width 600px
+      height 426px
     &__cont
-      width 295px
+      width 535px
       height 212px
-      margin-top 25px
+      // margin-top 25px
       color color-hover
-      font-size 13px
-      line-height 22px
+      font-size 24px
+      line-height 44px
   &__img
-    width 129px
-    height 44px
+    width 257px
+    height 88px
   &__shenzhen
-    width 153px
-    height 45px
+    width 306px
+    height 90px
   &__jiaotong
-    width 207px
-    height 42px
+    width 414px
+    height 84px
   &__zaodaotian
-    width 129px
-    height 44px
+    width 332px
+    height 116px
   &__dianzi
-    width 208px
-    height 56px
+    width 350px
+    height 91px
   &__zhongkeyuan
-    width 169px
-    height 36px
+    width 338px
+    height 72px
   &__dianqi
-    width 109px
-    height 77px
+    width 218px
+    height 154px
   &__cont
-    font-size 13px
+    font-size 20px
     color color-hover
     line-height 22px
     font-family PingFangSC-Regular
   &__top
-    margin-top 31px
+    margin-top 81px
 /deep/
   .grid-content
     text-align left !important

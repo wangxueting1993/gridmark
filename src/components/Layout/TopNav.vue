@@ -9,6 +9,10 @@
         @click="tab(0)"
       >首页</li>
       <li
+        :class="activeClass === 6?'actives': ''"
+        @click="tab(6)"
+      >公司介绍</li>
+      <li
         :class="activeClass === 1?'actives': ''"
         @click="tab(1)"
       >产品</li>
@@ -17,21 +21,17 @@
         @click="tab(2)"
       >技术</li>
       <li
-        :class="activeClass === 3?'actives': ''"
-        @click="tab(3)"
-      >导入客户</li>
-      <li
         :class="activeClass === 4?'actives': ''"
         @click="tab(4)"
       >发明专利</li>
       <li
+        :class="activeClass === 3?'actives': ''"
+        @click="tab(3)"
+      >客户中心</li>
+      <li
         :class="activeClass === 5?'actives': ''"
         @click="tab(5)"
       >新闻</li>
-      <li
-        :class="activeClass === 6?'actives': ''"
-        @click="tab(6)"
-      >公司介绍</li>
       <li
         :class="activeClass === 7?'actives': ''"
         @click="tab(7)"
@@ -151,18 +151,21 @@
   };
 </script>
 <style lang="stylus" scoped>
+.nav-top
+  width 1200px
+  margin 0 auto
 .nav
-  margin-right 97px
+  // margin-right 97px
   .actives
     color color-hover
-    border-bottom 2px solid color-hover
+    border-bottom 4px solid color-hover
   .home
     font-weight bold
   li
     display inline-block
     color color-primary
-    font-size 8px
-    padding 8px 0 8px 0
+    font-size 16px
+    padding 20px 16px 20px 16px
     cursor pointer
     margin-right 30px
 </style>

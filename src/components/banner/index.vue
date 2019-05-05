@@ -12,6 +12,6 @@ export default {
 <style lang="stylus">
 .gridmark_banner
   width 100%
-  height 228px
+  height 456px
   background-size cover
 </style>

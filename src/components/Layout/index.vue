@@ -35,7 +35,7 @@ export default {
   height 100%
 .el-header
   width 100%
-  height 32px !important
+  height 63px !important
   padding 0 !important
 .el-main
   width 100%

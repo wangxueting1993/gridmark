@@ -111,7 +111,7 @@ export default {
   background-size cover
 .join_us
   margin-top 16px
-  height 700px
+  height 900px
 .panle_title
   padding-right 36px
   span
@@ -125,7 +125,7 @@ export default {
   &__main
     margin 17px 0 19px 0
   &__cont
-    font-size 8px
+    font-size 16px
     color color-hover
     margin-bottom 19px
     text-align left
