@@ -46,7 +46,7 @@
           <div class="leader__eg__img l">
             <img
               class="leader__eg__img"
-              src="../../assets/images/company_info/leader.png"
+              src="../../assets/images/company_info/leader2.png"
               alt=""
             >
           </div>
@@ -83,7 +83,7 @@
             <el-col :span="8">
               <div class="grid-content bg-purple-light">
                 <img
-                  class="info__img"
+                  class="info__shenzhen"
                   src="../../assets/images/company_info/2.png"
                   alt=""
                 >
@@ -92,18 +92,18 @@
             <el-col :span="8">
               <div class="grid-content bg-purple">
                 <img
-                  class="info__img"
+                  class="info__jiaotong"
                   src="../../assets/images/company_info/3.png"
                   alt=""
                 >
               </div>
             </el-col>
           </el-row>
-          <el-row>
+          <el-row class="info__top">
             <el-col :span="8">
               <div class="grid-content bg-purple">
                 <img
-                  class="info__img"
+                  class="info__zaodaotian"
                   src="../../assets/images/company_info/4.png"
                   alt=""
                 >
@@ -112,7 +112,7 @@
             <el-col :span="8">
               <div class="grid-content bg-purple-light">
                 <img
-                  class="info__img"
+                  class="info__dianzi"
                   src="../../assets/images/company_info/5.png"
                   alt=""
                 >
@@ -121,18 +121,18 @@
             <el-col :span="8">
               <div class="grid-content bg-purple">
                 <img
-                  class="info__img"
+                  class="info__zhongkeyuan"
                   src="../../assets/images/company_info/6.png"
                   alt=""
                 >
               </div>
             </el-col>
           </el-row>
-          <el-row>
+          <el-row class="info__top">
             <el-col :span="8">
               <div class="grid-content bg-purple">
                 <img
-                  class="info__img"
+                  class="info__dianqi"
                   src="../../assets/images/company_info/7.png"
                   alt=""
                 >
@@ -160,6 +160,8 @@ export default {
   background-size cover
 .leader
   background color-bg-default
+  background url('../../assets/images/company_info/bg.png') no-repeat center center
+  background-size cover
   height 682px
   &__box
     padding-top 0
@@ -216,11 +218,34 @@ export default {
       font-size 13px
       line-height 22px
   &__img
-    width 119px
+    width 129px
     height 44px
+  &__shenzhen
+    width 153px
+    height 45px
+  &__jiaotong
+    width 207px
+    height 42px
+  &__zaodaotian
+    width 129px
+    height 44px
+  &__dianzi
+    width 208px
+    height 56px
+  &__zhongkeyuan
+    width 169px
+    height 36px
+  &__dianqi
+    width 109px
+    height 77px
   &__cont
     font-size 13px
     color color-hover
     line-height 22px
     font-family PingFangSC-Regular
+  &__top
+    margin-top 31px
+/deep/
+  .grid-content
+    text-align left !important
 </style>

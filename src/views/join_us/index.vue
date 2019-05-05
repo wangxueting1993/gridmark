@@ -62,7 +62,27 @@
           </template>
           <div class="panel__main">
             <div class="panel__cont">
-              1、根据用户需求确定程序功能，并进行模块化设计做相应的程序编写，完成APP开发。
+              岗位职责：
+            </div>
+            <div class="panel__cont">
+              1、制定点读笔、手写笔的推广和销售方案，完成负责销售任务；</div>
+            <div class="panel__cont">
+              2、了解行业、渠道客户需求，并提出新产品开发、改进建议；
+            </div>
+            <div class="panel__cont">
+              3、做好相关服务工作及客户关系维护及回款
+            </div>
+            <div class="panel__cont">
+              任职要求：
+            </div>
+            <div class="panel__cont">
+              1、大专或以上学历，3年以上点读笔行业销售工作经验 ；
+            </div>
+            <div class="panel__cont">
+              2、具有良好的客户沟通能力和销售技巧；
+            </div>
+            <div class="panel__cont">
+              3、工作积极，责任心强，具有较强的团队合作精神。
             </div>
           </div>
         </el-collapse-item>
