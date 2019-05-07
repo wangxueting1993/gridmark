@@ -3,8 +3,8 @@
     <home-banner/>
     <div class="white_bg contact_us">
       <div class="gridmark_main clearfix">
-        <div class="cont__main l">
-          <div class="cont__title">联/系/我/们</div>
+        <div class="cont__main l animated bounceInLeft">
+          <div class="cont__title">联系我们</div>
           <div class="cont__info">
             1.广告宣传资料·取样·商品导入·相关资料需求
           </div>
@@ -24,7 +24,7 @@
             http://www.gridmark.cn
           </div>
         </div>
-        <div class="cont__imgl r">
+        <div class="cont__imgl r animated bounceInRight">
           <img class="cont__img" src="../../assets/images/home/lianxiwomen.png" alt="">
         </div>
       </div>

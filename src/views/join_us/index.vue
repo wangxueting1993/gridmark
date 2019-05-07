@@ -1,7 +1,7 @@
 <template>
   <div>
     <home-banner />
-    <div class="gridmark_main join_us">
+    <div class="gridmark_main join_us animated tada">
       <el-collapse
         v-model="activeName"
         accordion

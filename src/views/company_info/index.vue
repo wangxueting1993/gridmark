@@ -1,13 +1,13 @@
 <template>
   <div>
     <home-banner />
-    <div class="gridmark_main info">
-      <div class="info__title">公/司/介/绍</div>
+    <div class="gridmark_main info top">
+      <div class="info__title">公司介绍</div>
       <div class="info__eg clearfix">
-        <div class="info__eg__cont l">
+        <div class="info__eg__cont l animated bounceInLeft">
           格睿码克科技（深圳）有限公司（简称格睿码克）于2014年创建于深圳市南山区。是一家具备整体系统方案及软硬件研发能力的中外合资创新型高科技公司。一直以来，公司始终致力于智能领域的教育、书写及显示的相关科技进行研发与推进。经过多年经验积累与专业技术沉淀，因对科技领域的研究与探索而获得十一项自主知识产权的发明专利。在公司不断研发新型高科技产品的推动下，现已将国内外顶级技术专家及大量自主知识产权凝聚在一起，为全球十余家教育龙头企业提供专业服务。
         </div>
-        <div class="info__eg__img r">
+        <div class="info__eg__img r animated bounceInRight">
           <img
             class="info__eg__img"
             src="../../assets/images/company_info/info.png"
@@ -17,17 +17,17 @@
       </div>
     </div>
     <div class="leader">
-      <div class="gridmark_main">
-        <div class="leader__title">优/秀/团/队</div>
+      <div class="gridmark_main top">
+        <div class="leader__title">创始人团队</div>
         <div class="leader__eg clearfix">
-          <div class="leader__eg__img l">
+          <div class="leader__eg__img l animated bounceInLeft">
             <img
               class="leader__eg__img"
               src="../../assets/images/company_info/leader.png"
               alt=""
             >
           </div>
-          <div class="leader__eg__cont l">
+          <div class="leader__eg__cont l animated bounceInRight">
             <div>ｙo shi da kenn ji简介</div>
             <div>日本大学 海洋建築专业　博士</div>
             <div>日本电气通讯大学 兼职教授</div>
@@ -43,14 +43,14 @@
         <div>
         </div>
         <div class="leader__eg clearfix">
-          <div class="leader__eg__img l">
+          <div class="leader__eg__img l animated bounceInLeft">
             <img
               class="leader__eg__img"
               src="../../assets/images/company_info/leader2.png"
               alt=""
             >
           </div>
-          <div class="leader__eg__cont l">
+          <div class="leader__eg__cont l animated bounceInRight">
             <div>戴伟简介</div>
             <div>日本早稻田大学 微电子专业 硕士</div>
             <div>索尼公司 图像传感器 高级工程师兼项目负责人</div>
@@ -63,12 +63,12 @@
       </div>
     </div>
     <div class="map">
-      <div class="gridmark_main">
-        <div class="info__title">股/东/及/技/术/顾/问/团/队</div>
+      <div class="gridmark_main top">
+        <div class="info__title">股东及技术顾问团队</div>
         <div class="info__cont">
-          国家千人计划专家 国家特聘专家两名清华大学影像压缩处理专家教授一名日本早稻田大学 九州大学 电气通讯大学等技术专家团队五名
+          国家千人计划专家, 国家特聘专家两名,清华大学影像压缩处理专家教授一名,日本早稻田大学 九州大学 电气通讯大学等技术专家团队五名
         </div>
-        <div class="info__title">技/术/合/作/单/位</div>
+        <div class="info__title">技术合作单位</div>
         <div class="map__img">
           <el-row>
             <el-col :span="8">
@@ -245,6 +245,8 @@ export default {
     font-family PingFangSC-Regular
   &__top
     margin-top 81px
+.top
+  padding-top 0
 /deep/
   .grid-content
     text-align left !important

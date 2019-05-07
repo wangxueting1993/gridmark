@@ -2,7 +2,7 @@
   <div>
     <home-banner />
     <div class="gridmark_main patent">
-      <div class="patent__title">发/明/专/利</div>
+      <div class="patent__title">发明专利</div>
       <div class="patent__cont">
         做为一家拥有自主知识产权的高科技公司，“创新致远 勇往直前”是格睿码克永恒不变的信念。格睿码克现已获得国际专利363件，其中11项为自主知识产权发明专利，涵盖到智能点阵系统基本原理、点码阵列、实现方案、软件识别及编解码算法、硬件实现等方面。
       </div>
@@ -128,7 +128,7 @@
     </div>
     <div class="map">
       <div class="gridmark_main map__top">
-        <div class="patent__title">发/明/专/利</div>
+        <div class="patent__title">发明专利</div>
         <div class="patent__cont">
           做为一家拥有自主知识产权的高科技公司，“创新致远 勇往直前”是格睿码克永恒不变的信念。格睿码克现已获得国际专利363件，其中11项为自主知识产权发明专利，涵盖到智能点阵系统基本原理、点码阵列、实现方案、软件识别及编解码算法、硬件实现等方面。
         </div>
@@ -187,6 +187,9 @@ export default {
   &__carousel
     margin-top 20px
     height 240px
+    /deep/
+      .el-carousel__container
+        height 560px
   &__img
     width 381px
     height 557px
@@ -197,7 +200,4 @@ export default {
     margin-left 125px
     line-height 44px
     font-family PingFangSC-Regular
-/deep/
-  .el-carousel__container
-    height 560px
 </style>

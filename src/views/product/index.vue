@@ -3,7 +3,7 @@
     <home-banner />
     <div class="gridmark_main product-up">
       <div class="product-up__title">
-        公/司/产/品
+        公司产品
       </div>
       <div class="product-up__main">
         <el-row
@@ -172,7 +172,7 @@
     <div class="use_place">
       <div class="gridmark_main product_place product">
         <div class="product__title">
-          应/用/环/境
+          应用环境
         </div>
         <div class="product__main">
           <el-row

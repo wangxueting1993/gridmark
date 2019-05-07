@@ -3,7 +3,7 @@
     <home-banner />
     <div class="gridmark_main import">
       <div class="import__title">
-        客/户/品/牌
+        客户中心
       </div>
       <div class="import__main">
         <el-row :gutter="24" class="row-space">
@@ -88,10 +88,10 @@
                 </div>
                 <div>
                   <span class="import__tip">
-                    E-Pencil
+                    贝瓦地毯
                   </span>
                   <span class="import__tip">
-                    日本公文式教育集团（Kumon）
+                    贝瓦网（Beva）
                   </span>
                 </div>
               </div>
@@ -110,10 +110,33 @@
                   </div>
                   <div>
                     <span class="import__tip">
-                      kumiita
+                      Q-BO
                     </span>
                     <span class="import__tip">
-                      日本公文式教育集团（Kumon）
+                      DeAGOSTINI JAPAN
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </el-col>
+          <el-col :span="8">
+            <div class="grid-content bg-purple">
+              <div class="import__product import__transform">
+                <div class="import__product">
+                  <div>
+                    <img
+                      class="import__img"
+                      src="../../assets/images/import_customer/6.jpg"
+                      alt=""
+                    >
+                  </div>
+                  <div>
+                    <span class="import__tip">
+                      G-speak
+                    </span>
+                    <span class="import__tip">
+                      海外多家教育连锁机构
                     </span>
                   </div>
                 </div>
