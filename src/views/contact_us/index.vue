@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="cont__imgl r animated bounceInRight">
-          <img class="cont__img" src="../../assets/images/home/lianxiwomen.png" alt="">
+          <img class="cont__img" src="../../assets/images/contact_us/map.png" alt="">
         </div>
       </div>
     </div>
@@ -49,9 +49,12 @@ export default {
   background-size cover
 .cont
   &__img
-    width 527px
-    height 451px
+    width 655px
+    // height 451px
     border-radius 6px
+    overflow hidden
+  &__img:hover
+    transform scale(1.5)
   &__main
     width 541px
     height 220px

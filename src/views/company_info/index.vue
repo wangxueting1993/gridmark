@@ -60,14 +60,28 @@
             <div>担任国内外多家光电影像相关企业的技术顾问</div>
           </div>
         </div>
+        <div>
+        </div>
+        <div class="leader__eg clearfix">
+          <div class="leader__eg__img l animated bounceInLeft">
+            <img
+              class="leader__eg__img"
+              src="../../assets/images/company_info/leader3.png"
+              alt=""
+            >
+          </div>
+          <div class="leader__eg__cont l animated bounceInRight">
+            <div>股东及技术顾问团队</div>
+            <div>国家千人计划专家</div>
+            <div>国家特聘专家两名</div>
+            <div>清华大学影像压缩处理专家教授一名</div>
+            <div>日本早稻田大学 九州大学 电气通讯大学等技术专家团队五名</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="map">
       <div class="gridmark_main top">
-        <div class="info__title">股东及技术顾问团队</div>
-        <div class="info__cont">
-          国家千人计划专家, 国家特聘专家两名,清华大学影像压缩处理专家教授一名,日本早稻田大学 九州大学 电气通讯大学等技术专家团队五名
-        </div>
         <div class="info__title">技术合作单位</div>
         <div class="map__img">
           <el-row>
@@ -92,7 +106,7 @@
             <el-col :span="8">
               <div class="grid-content bg-purple">
                 <img
-                  class="info__jiaotong"
+                  class="info__jiaotong1"
                   src="../../assets/images/company_info/3.png"
                   alt=""
                 >
@@ -162,8 +176,8 @@ export default {
   background color-bg-default
   background url('../../assets/images/company_info/bg.png') no-repeat center center
   background-size cover
-  height 1367px
-  &__box
+  height 1567px
+  &__boxß
     padding-top 0
   &__title
     font-size 30px
@@ -171,19 +185,18 @@ export default {
     height 90px
     line-height 90px
   &__eg
-    height 540px
+    height 430px
     margin-bottom 60px
     &__img
-      width 540px
-      height 500px
+      width 400px
       margin-right 158px
     &__cont
       width 500px
       height 212px
       margin-top 10px
       color color-hover
-      font-size 24px
-      line-height 46px
+      font-size 20px
+      line-height 40px
       text-align left 
 .map
   height 850px
@@ -223,7 +236,7 @@ export default {
   &__shenzhen
     width 306px
     height 90px
-  &__jiaotong
+  &__jiaotong1
     width 414px
     height 84px
   &__zaodaotian
