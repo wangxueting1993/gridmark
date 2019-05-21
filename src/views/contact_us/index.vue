@@ -6,22 +6,28 @@
         <div class="cont__main l animated bounceInLeft">
           <div class="cont__title">联系我们</div>
           <div class="cont__info">
-            1.广告宣传资料·取样·商品导入·相关资料需求
+            TEL：0755-8693-6435
           </div>
           <div class="cont__info">
-            咨询处：格睿码克科技（深圳）有限公司 市场部
-          </div>
-          <div class="cont__info">
-            Email：suixueqin@gridmark.cn
-          </div>
-          <div class="cont__info">
-            TELL：0755-8693-6435
+            FAX：0755-8693-6432
           </div>
           <div class="cont__info">
             Address：深圳市南山区桂庙路北向南瑞峰A区3楼3056号
           </div>
           <div class="cont__info">
             http://www.gridmark.cn
+          </div>
+          <div class="cont__info">
+            产品市场联系人：随经理
+          </div>
+          <div class="cont__info">
+           Email：suixueqin@gridmark.cn
+          </div>
+          <div class="cont__info">
+           行政招聘联系人：龚主管
+          </div>
+          <div class="cont__info">
+           Email：gongyanxian@gridmark.cn
           </div>
         </div>
         <div class="cont__imgl r animated bounceInRight">

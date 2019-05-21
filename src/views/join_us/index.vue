@@ -118,7 +118,7 @@ export default {
     display inline-block
     width 200px
     margin-left 36px
-    font-size 10px
+    font-size 20px
     color color-hover
     text-align left
 .panel

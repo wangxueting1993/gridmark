@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">COPYRIGHT ©2019 深圳市光科全息技术有限公司 网站地图 深圳市光科全息技术有限公司</div>
+  <div class="footer">格睿码克科技（深圳）有限公司（简称格睿码克）</div>
 </template>
 <script>
 export default {

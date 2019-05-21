@@ -67,7 +67,7 @@
                       Ting笔
                     </span>
                     <span class="import__tip">
-                      德国ting
+                      （德国ting）
                     </span>
                   </div>
                 </div>
@@ -91,7 +91,7 @@
                     贝瓦地毯
                   </span>
                   <span class="import__tip">
-                    贝瓦网（Beva）
+                    （贝瓦网Beva）
                   </span>
                 </div>
               </div>

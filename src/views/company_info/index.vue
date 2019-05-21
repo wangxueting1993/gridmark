@@ -28,7 +28,7 @@
             >
           </div>
           <div class="leader__eg__cont l animated bounceInRight">
-            <div>ｙo shi da kenn ji简介</div>
+            <div class="leader__eg__title">ｙo shi da kenn ji简介</div>
             <div>日本大学 海洋建築专业　博士</div>
             <div>日本电气通讯大学 兼职教授</div>
             <div>数码景观株式会社（上市） 创始人</div>
@@ -51,7 +51,7 @@
             >
           </div>
           <div class="leader__eg__cont l animated bounceInRight">
-            <div>戴伟简介</div>
+            <div class="leader__eg__title">戴伟简介</div>
             <div>日本早稻田大学 微电子专业 硕士</div>
             <div>索尼公司 图像传感器 高级工程师兼项目负责人</div>
             <div>北京思比科微电子 市场总监</div>
@@ -71,11 +71,10 @@
             >
           </div>
           <div class="leader__eg__cont l animated bounceInRight">
-            <div>股东及技术顾问团队</div>
-            <div>国家千人计划专家</div>
-            <div>国家特聘专家两名</div>
-            <div>清华大学影像压缩处理专家教授一名</div>
-            <div>日本早稻田大学 九州大学 电气通讯大学等技术专家团队五名</div>
+            <div class="leader__eg__title">股东及技术顾问团队</div>
+            <div>国家千人计划专家,国家特聘专家&nbsp; 两名</div>
+            <div>清华大学影像压缩处理专家教授 &nbsp;一名</div>
+            <div>日本早稻田大学 九州大学 电气通讯大学等技术专家团队&nbsp; 五名</div>
           </div>
         </div>
       </div>
@@ -177,7 +176,7 @@ export default {
   background url('../../assets/images/company_info/bg.png') no-repeat center center
   background-size cover
   height 1567px
-  &__boxß
+  &__box
     padding-top 0
   &__title
     font-size 30px
@@ -187,6 +186,9 @@ export default {
   &__eg
     height 430px
     margin-bottom 60px
+    &__title
+      font-size: 25px;
+      font-weight 700
     &__img
       width 400px
       margin-right 158px

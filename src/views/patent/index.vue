@@ -128,13 +128,15 @@
     </div>
     <div class="map">
       <div class="gridmark_main map__top">
-        <div class="patent__title">发明专利</div>
+        <div class="patent__title">分布专利</div>
         <div class="patent__cont">
-          做为一家拥有自主知识产权的高科技公司，“创新致远 勇往直前”是格睿码克永恒不变的信念。格睿码克现已获得国际专利363件，其中11项为自主知识产权发明专利，涵盖到智能点阵系统基本原理、点码阵列、实现方案、软件识别及编解码算法、硬件实现等方面。
+          格睿码克以最前端的科技专业理念，在国际上荣获多次科技奖项并且已获得国际专利363件（日本112件·海外251件）其中西班牙、以色列、孟加拉国、尼日利亚、南非等地区均为专利取得国。
         </div>
-        <div class="map__img">
-          等UI图
-        </div>
+          <img
+          class="map__img"
+            src="../../assets/images/patent/map.png"
+            alt=""
+          >
       </div>
     </div>
   </div>
@@ -159,9 +161,8 @@ export default {
   &__top
     padding-top 0px
   &__img
-    width 1200px
+    // width 1200px
     height 420px
-    background pink
     margin-top 40px
     margin-left 32px
   &__title
