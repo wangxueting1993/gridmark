@@ -94,7 +94,8 @@ export default {
     this.setSize();
     const that = this;
     window.addEventListener('resize', function () {
-      that.screenWidth = $(window).width();
+      window.screenWidth = document.body.clientWidth
+      that.screenWidth = window.screenWidth
       that.setSize();
     }, false);
   }

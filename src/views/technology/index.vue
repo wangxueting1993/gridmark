@@ -9,7 +9,7 @@
         <div class="cont__main r animated bounceInRight">
           <div class="cont__title">智能点码阵列</div>
           <div class="cont__info">
-            智能点码阵列：Grid Onput即极小的点（dot）构成的新二维码技术。市场上的点读笔多数采用的OID2码，即格睿码克的三代码Grid3（侵犯我司专利）。格睿码克做为点阵码发明者，持续对点码技术创新与改良，现已升级至第五代码，精度达到0.1mm，码点发行量约达300万亿，优势在于对成像光学系统及采集算法不断优化，实现高精度，大信息量，多种印刷载体的各类应用，并可避免损害原印刷物的设计。
+            Grid Onput即极小的点（dot）构成的新二维码技术。市场上的点读笔多数采用的OID2码，即格睿码克的三代码Grid3（侵犯我司专利）。格睿码克做为点阵码发明者，持续对点码技术创新与改良，现已升级至第五代码，码点发行量约达300万亿，优势在于对成像光学系统及采集算法不断优化，实现高精度，大信息量，多种印刷载体的各类应用，并可避免损害原印刷物的设计。
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
     <div class="white_bg">
       <div class="gridmark_main clearfix">
         <div class="cont__main l animated bounceInLeft">
-          <div class="cont__title">纳/米/窄/带/光/学/薄/膜</div>
+          <div class="cont__title">纳米窄带光学薄膜</div>
           <div class="cont__info">
             格睿码克研发的精准高速定位点阵码采集系统，现已与世界首创纳米窄带光学薄膜技术相匹配。这项新型技术使普通智能电视、投影设备、显示设备、传统教育黑板等可用低成本投入，达到具有触控，互动，书写的多元化教育或会议场景的需求。
           </div>

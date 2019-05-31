@@ -15,8 +15,9 @@
             <div class="cont__info">
               格睿码克科技（深圳）有限公司（简称格睿码克）于2014年创建于深圳市南山区。是一家具备整体系统方案及软硬件研发能力的中外合资创新型高科技公司。公司始终致力于智能领域的教育、书写及显示的相关科技进行研发与推进。
             </div>
+            <div>&nbsp;</div>
             <div>
-              完全自主知识产权，发明专利11项及其他核心知识产权十余项
+              完全自主知识产权，发明专利<span class="cont__yellow">11</span>项及其他核心知识产权十余项
             </div>
             <div>
               <span class="cont__yellow">100%</span>
@@ -64,7 +65,7 @@
         </div>
         <div class="cont__main r animated bounceInRight">
           <div class="cont__title">技术</div>
-          <div class="cont__info">格睿码克作为点阵码发明者，现已升级至第五代码，精度达到0.1mm，码点发行量约达300万亿，突破当下市场产品的材料、工艺、技术等方面的局限型，同时以高性价比方案满足多元化场景的应用需求。
+          <div class="cont__info">格睿码克作为点阵码发明者，现已升级至第五代码，码点发行量约达300万亿，突破当下市场产品的材料、工艺、技术等方面的局限型，同时以高性价比方案满足多元化场景的应用需求。
           </div>
         </div>
       </div>
@@ -189,6 +190,10 @@ export default {
   background-color #F4F4FF
   background-size cover
 .cont
+  &__title
+    margin-bottom 20px
+    font-size 24px
+    font-weight 700
   &__img
     width 580px
     height 440px
@@ -208,7 +213,7 @@ export default {
     margin-top 5px
     line-height 30px
     letter-spacing 1px
-    font-size 18px
+    font-size 20px
   &__main--info
     display inline-block
   &__yellow

@@ -28,7 +28,7 @@
             >
           </div>
           <div class="leader__eg__cont l animated bounceInRight">
-            <div class="leader__eg__title">ｙo shi da kenn ji简介</div>
+            <div class="leader__eg__title">吉田健治（Yoshida Kenji）简介</div>
             <div>日本大学 海洋建築专业　博士</div>
             <div>日本电气通讯大学 兼职教授</div>
             <div>数码景观株式会社（上市） 创始人</div>
