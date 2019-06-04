@@ -193,7 +193,7 @@ export default {
       width 400px
       margin-right 158px
     &__cont
-      width 500px
+      width 550px
       height 212px
       margin-top 10px
       color color-hover
