@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">格睿码克科技（深圳）有限公司（简称格睿码克）</div>
+  <div class="footer">格睿码克科技（深圳）有限公司（简称格睿码克）<a href="http://www.beian.miit.gov.cn" style="color: #d8d8d8">粤ICP备19053211号</a></div>
 </template>
 <script>
 export default {
